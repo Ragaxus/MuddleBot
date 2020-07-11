@@ -1,13 +1,12 @@
-# How to Build Your First Discord Bot with Node.js
+A simple Discord bot that gives you two random Magic cards, for playing the Muddle the Mixture custom card game.
 
-Michiel Mulders shows you how to install and set up a new Discord bot, which is made easier thanks to the API offered by the Discord.js package.
-
-Link to article on SitePoint: [https://www.sitepoint.com/discord-bot-node-js/](https://www.sitepoint.com/discord-bot-node-js/)
+Based on this article on SitePoint: [https://www.sitepoint.com/discord-bot-node-js/](https://www.sitepoint.com/discord-bot-node-js/)
 
 ## Requirements
 
 - [Node.js](http://nodejs.org/)
 - [Discord](https://discordapp.com/) account
+- [Scryfall](https://www.npmjs.com/package/scryfall-client)
 
 ## Installation Steps (if applicable)
 
