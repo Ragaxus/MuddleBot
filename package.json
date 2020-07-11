@@ -1,0 +1,19 @@
+{
+  "name": "muddle-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that returns a random pair of Magic cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aufbau",
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^11.1.0",
+    "dotenv": "^8.2.0",
+    "scryfall-client": "^0.17.0",
+    "uws": "^100.0.1",
+    "windows-build-tools": "^5.2.2"
+  }
+}
