@@ -48,13 +48,13 @@ bot.on('message', msg => {
   else if (msg.content.search("!randcolor")>=0) {
     match = msg.content.match(/!randcolor (\d)/);
     if (match !== null) {
-      if (match.len > 1) numColors = match[1];
-      else numColors = 1;
-      colors = ["white","blue","black","red","green"];
-      shuffle(colors);
-      myColors = colors.slice(0,numColors+1);
-      msg.reply(myColors.join(", "));
+      if (match.length > 1) numColors = match[1];
     }
+    else numColors = 1;
+    colors = ["white","blue","black","red","green"];
+    shuffle(colors);
+    myColors = colors.slice(0,numColors+1);
+    msg.reply(myColors.join(", "));
   }
 
 });
