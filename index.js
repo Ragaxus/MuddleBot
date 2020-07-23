@@ -49,8 +49,9 @@ bot.on('message', msg => {
     match = msg.content.match(/!randcolor (\d)/);
     if (match.len > 1) numColors = match[1];
     else numColors = 1;
-    colors = shuffle(["white","blue","black","red","green"]).slice(0,numColors+1);
-    msg.reply(colors.join(", "));
+    colors = shuffle(["white","blue","black","red","green"])
+    myColors = colors.slice(0,numColors+1);
+    msg.reply(myColors.join(", "));
   }
 
 });
